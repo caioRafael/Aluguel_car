@@ -1,0 +1,68 @@
+#page-landing{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+#page-landing h1{
+    font-family: 'Roboto';
+    color: #EEEE00;
+
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#page-landing .form-logon{   
+    padding: 2rem;
+
+    background: #ffffff;
+    border-radius: 2rem;
+
+}
+
+#page-landing .form-logon h3{
+    padding: 3rem 7rem;
+    font-family: 'Roboto';
+    color: #EEEE00;
+}
+
+#page-landing .form-logon form{
+    margin: 30px;
+}
+
+#page-landing .form-logon form .button-container{
+    display: flex;
+    justify-content: center;
+}
+
+#page-landing .form-logon form .button-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: Roboto;
+    color: #EEEE00;
+    background: #000000;
+    width: 100%;
+    height: 4.5rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+}
+
+#page-landing .form-logon .links{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-landing .form-logon .links a{
+    color: #1E90FF;
+    font-family: Roboto;
+    text-decoration: none;
+}

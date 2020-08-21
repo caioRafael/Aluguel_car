@@ -1,0 +1,44 @@
+.car-item{
+    margin: 3rem 10px;
+    margin-bottom: 10px;
+    padding: 3rem;
+    background: #ffffff;
+    border-radius: 1rem;
+}
+
+.car-item header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-item header img{
+    margin-top: -110px;
+    width: 200px;
+    height: 120px;
+}
+
+.car-item .info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.car-item .info-container + p{
+    margin: 7px 0;
+}
+
+.car-item a{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: Roboto;
+    color: #EEEE00;
+    background: #000000;
+    border-radius: 0.8rem;
+    text-decoration: none;
+}

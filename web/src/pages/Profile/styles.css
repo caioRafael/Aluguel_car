@@ -1,0 +1,32 @@
+#profile-page{
+    width: 100vw;
+    height: 100vh;
+}
+
+#profile-page main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 20%;
+    padding: 4rem;
+    border-radius: 2rem;
+    background: #ffffff;
+}
+
+#profile-page main table{
+    width: 100%;
+}
+
+#profile-page main table, th, td{
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+
+#profile-page main table tr th .button-modal{
+    width: 80%;
+    height: 40px;
+    border-radius: 0.8rem;
+    border: solid 0px;
+}

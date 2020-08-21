@@ -1,0 +1,31 @@
+.header-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEEE00;
+}
+.header-container .top-bar-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container .top-bar-container .button {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    border-radius: 0.8rem;
+}
+
+.header-container .top-bar-container .button a{
+    font-family: Roboto;
+    color: #EEEE00;
+    text-decoration: none;
+    margin: 10px;
+}

@@ -1,0 +1,27 @@
+#admin-page{
+    width: 100vw;
+    height: 100vh;
+}
+
+#admin-page .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#admin-page .content main{
+    margin: 2rem 20%;
+    padding: 4rem;
+    border-radius: 2rem;
+    background: #ffffff;
+}
+
+#admin-page .content main table{
+    width: 100%;
+}
+
+#admin-page .content main table, th, td{
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    padding: 15px;
+}
